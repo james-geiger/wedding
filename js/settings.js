@@ -63,7 +63,7 @@
 			itemsDesktop: [1199,5],
 			itemsDesktopSmall: [991,4],
 			itemsTablet: [767,3],
-			slideSpeed: 800
+			slideSpeed: 1200
 		});
 
 		// ====================================================================
