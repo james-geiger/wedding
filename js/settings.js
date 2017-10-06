@@ -46,63 +46,10 @@
 
 		// Countdown
 
-		//var weddingDate = new Date();
-		//var weddingDate = new Date(weddingDate.getFullYear() + 1, 1 - 1, 1);
-		var weddingDate = new Date("June 30, 2018 18:00:00")
+		var weddingDate = new Date("June 30, 2018 18:00:00");
 		$(".countdown").countdown({
 			until: weddingDate,
 			format: 'ODHMS'
-		});
-
-		// ====================================================================
-
-		// Owl Carousel
-
-		$("#registry .owl-carousel").owlCarousel({
-			items: 6,
-			itemsDesktop: [1199,5],
-			itemsDesktopSmall: [991,4],
-			itemsTablet: [767,3],
-			slideSpeed: 1200
-		});
-
-		// ====================================================================
-
-		// Parallax
-
-		$('.parallax').scrolly({bgParallax: true});
-
-		// ====================================================================
-
-		// Fun Facts Counter
-
-		var flag = 0;
-
-	    $(window).scroll(function() {
-	        if (flag == 1){
-	           return false;
-	        }
-	        else{
-	           var bh = $(window).height();
-	           var st = $(window).scrollTop();
-	           var el = $('.timer');
-	           var eh = el.height();
-	           if ( st >= (100 + eh) - bh ) {
-	               el.countTo({
-	                   speed: 2000,
-	                   refreshInterval: 20
-	               });
-	           }
-	           flag = 1;
-	        }
-	    });
-
-		// ====================================================================
-
-		// Fancybox
-
-		$('.fancybox').fancybox({
-			openEffect: 'none'
 		});
 
 		// ====================================================================

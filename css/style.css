@@ -489,11 +489,18 @@ section {
 	border-color: #fff;
 }
 
-#rsvp .btn {
+#rsvp .btn, .swal2-confirm.btn {
 	background: #222;
 	color: #fff;
 	margin-top: 20px;
 }
+
+.swal2-cancel.btn {
+	background: #fff;
+	color: #222;
+	margin-top: 20px;
+}
+
 
 /* REGISTRY
 =========================================================================================*/
@@ -507,10 +514,10 @@ section {
 #registry .item {
 	padding: 15px;
 	text-align: center;
+	display: inline-block;
 }
 
 #registry .item a {
-	border: 1px solid #ddd;
 	display: block;
 	height: 80px;
 	padding: 15px;
