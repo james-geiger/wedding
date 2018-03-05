@@ -237,7 +237,7 @@ section {
 	width: 100%;
 }
 
-.justgrimes {
+.james {
  width: 370px;
  height:370px;
  display:block;
@@ -246,21 +246,13 @@ section {
  background:transparent url('../images/james.jpg') center top no-repeat;
 }
 
-.justgrimes:hover {
-   background-image: url('../images/james2.jpg');
-}
-
-.amgallow {
+.megan {
  width: 370px;
  height:370px;
  display:block;
 	display: inline-block;
 	position: relative;
  background:transparent url('../images/megan.jpg') center top no-repeat;
-}
-
-.amgallow:hover {
-   background-image: url('../images/megan2.jpg');
 }
 
 .hover-effect i {
